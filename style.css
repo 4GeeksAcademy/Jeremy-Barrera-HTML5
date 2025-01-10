@@ -1,0 +1,57 @@
+body {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    width: 75%;
+    border: 1px solid #ccc; 
+    background-color: white;
+    padding: 28px 45px 30px 45px;
+    box-sizing: border-box;
+}
+
+
+input[type="number"], input[type="text"],input[type="tel"], textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+.radio-icons-box {
+    display: flex;
+    align-items: center;
+    background-color: #6c757d;
+    padding: 10px;
+    border-radius: 5px;
+    max-width: 240px;
+    margin-left: 0;
+    margin-top: 10px;
+    margin-right: auto;
+}
+
+input[type="radio"] {
+    width: 20px;
+    height: 20px;
+    margin: 0 5px;
+}
+
+.fa-brands {
+    font-size: 1rem;
+    margin-left: 10px;
+}
+
+textarea.form-control {
+    margin-top: 10px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
